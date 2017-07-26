@@ -1,0 +1,12 @@
+<hibernate-mapping>
+    <class name="com.chernyha.PeopleEntity" table="people">
+    <id column="id" name="id" type="java.lang.String">
+    <generator class="increment"/>
+    </id>
+    <property column="name" name="name" type="java.lang.String"/>
+    <property column="surname" name="surname" type="java.lang.String"/>
+    <property column="phone" name="phone" type="java.lang.String"/>
+        <property column="email" name="email" type="java.lang.String"/>
+        <property column="skype" name="skype" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>
